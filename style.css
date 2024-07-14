@@ -1,0 +1,199 @@
+:root{
+  --palette-first : #f8f6f3;
+  --palette-light1: #FFE9D0;
+  --palette-light2 : #FFFED3;
+  --palette-light3 : #BBE9FF;
+  --palette-light4 : #b2afff;
+  --palette-last1 : #4b47bd; 
+  --palette-last2 : #5A639C;
+  --palette-last3 : #1A2130;
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,500&display=swap');
+body{
+  background-color: #B4B4B4;
+}
+
+div{
+  text-align: center;
+}
+
+.card-text{
+  font-family: "Fraunces", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+
+}
+
+.faeture_projects{
+  font-family: "Fraunces", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+.hello{
+  font-family: "Fraunces", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+.intro,.buttons{
+  font-family: "Fraunces", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+
+}
+
+.projects{
+  width: auto
+
+}
+
+.TinDog{
+  margin: auto;
+  padding: auto;
+}
+
+.MoveIt{
+  margin: auto;
+  padding: auto;
+}
+
+.icon {
+  font-size: 32px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  display: inline;
+}
+
+.model{
+  display: inline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer h3{
+  font-family: "Fraunces", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0; 
+}
+
+footer a {
+  position: relative;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #555;
+  transition: transform 0.2s, color 0.2s;
+}
+
+footer h3:hover {
+  transform: scale(1.2);
+}
+
+footer h3 {
+  text-shadow: 2px 2px #1b5fc3;
+}
+
+.redhover a:hover {
+  transform: scale(1.2);
+  color: red;
+}
+
+.blackhover a:hover {
+  transform: scale(1.2);
+  color: black;
+}
+
+.googlehover a:hover i{
+  color: transparent;
+  transform: scale(1.2);
+  background: linear-gradient(-120deg, #4285f4, #34a853, #fbbc05, #ea4335);
+  -webkit-background-clip: text;
+      -webkit-mask: linear-gradient-(120deg, #4285f4, #34a853, #fbbc05, #ea4335);
+}
+
+.whitehover a:hover {
+  transform: scale(1.2);
+  color: white;
+}
+
+
+footer a span {
+  visibility: hidden;
+  opacity: 0;
+  width: 80px;
+  font-family: "Fraunces", sans-serif;
+  background-color: #B4B4B4;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position the tooltip above the icon */
+  left: 50%;
+  margin-left: -40px; /* Center the tooltip */
+  transition: opacity 0.2s;
+}
+
+footer a span::after {
+  content: '';
+  position: absolute;
+  top: 100%; /* Bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #B4B4B4 transparent transparent transparent;
+}
+
+footer a:hover span {
+  visibility: visible;
+  opacity: 1;
+}
+
+.closing-line {
+  /* margin-top: 20px; */
+  font-size: 1.2em;
+  color: #555;
+  text-align: center;
+}
+
+.lastline{
+  font-family: "Fraunces", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: bold;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0; 
+
+  margin-bottom: 0;  
+}
